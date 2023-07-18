@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1 {
+    color: #004E98;
+    font-size: 30px;
+    font-family: 'Crimson Text', serif;
+}
+h2 {
+    font-size: 30px;
+    color: #004E98;
+    font-family: 'Crimson Text', serif;
+}
+h3{
+    font-size: 20px;
+    color: #004E98;
+    font-family: Arial, Helvetica, sans-serif;
+}
+p {
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+/* inicio de primera parte - index */
+header {
+    display: flex;
+    justify-content: space-between;
+}
+.logo-header {
+    display: flex;
+}
+.logo-header p {
+    padding: 50px 10px;
+    font-family: 'Crimson Text', serif;
+    font-size: 20px;
+    color: #ff6700;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    padding: 10px 20px 10px 400px; 
+}
+nav ul li{
+    background-color: #ff6700;
+    padding: 5px 20px 12px 15px;
+    border-radius: 90px;
+    text-align: center;
+}
+.primera-cara {
+    display: flex;
+}
+.contenedorderecho-primerapagina {
+    display: flex;
+    align-items: flex-start;
+}
+.info{
+    padding: 0px 200px 0px 100px;
+}
+.info h1{
+    font-size: 50px;
+}
+.botones-fp{
+    display: flex;
+    margin: 50px 100px;
+}
+.botones-fp p{
+    font-size: 25px;
+    background-color: #ff6700;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 90px;
+}
+/* fin de primera parte - index */
+/* inicio de segunda parte - index */
+.segunda-cara{
+    display: flex;
+}
+.parrafo-uno{
+    display: flex;
+    flex-direction: column;
+}
+.parrafo-uno p{
+    display: flex;
+}
+.parrafo-dos{
+    display: flex;
+    flex-direction: column;
+}
+.botonesversion2-fp{
+    display: flex;
+    margin: 50px 25px;
+}
+.botonesversion2-fp span{
+    font-size: 20px;
+    background-color: #ff6700;
+    padding: 10px;
+    border-radius: 90px;    
+    margin: 4px 2px 3px 5px;
+}
+/* fin de la segunda parte - index */
+/* inicio de la tercera parte - index */
+.tercera-cara{
+    display: flex;
+}
+.padretarjetas-terceracara{
+    display: flex;    
+    flex-direction: column;
+    margin: 10px 40px;
+}
+/* fin  de la tercera parte - index */
+/* inicio de la cuarta parte - index */
+
+.gridpadre-cuartacara{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr) ;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: 
+    "metodo1 metodo2 metodo3 parrafo1 foto1"
+    "alianzas comida . adopciones vidas . ";
+}
+/* inicio de la primera parte - adopta */
+
